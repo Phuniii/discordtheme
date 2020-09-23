@@ -1,0 +1,61 @@
+//META{"name":"good","description":"Nämen, vette fan asså","author":"Phuni","version":"1"}*//
+
+@import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
+
+:root {
+    --server-icon-size: 40px; /* Size of the server icons | DEFAULT: 35px */
+    --server-icon-spacing: 4px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
+    --server-container-padding: 8px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
+    
+    --background-primary: #282C34;
+    --background-secondary: #2E323A;
+    --background-secondary-alt: #2E323A;
+    --background-tertiary: #282C34;
+    --background-floating: #18191c;
+    
+    --scrollbar-auto-thumb: #3E4249;
+    --scrollbar-auto-track: #2E323A;
+    
+    --scrollbar-thin-thumb: #3E4249;
+    
+    --channels-default: #c1c1c1;
+    --channeltextarea-background: #2E323A;
+}
+
+/* Friendslist background color */
+.theme-dark .container-1D34oG {
+    background-color: #282C34;
+}
+
+/* Sidebar right*/
+.membersWrap-2h-GB4 {
+    min-width: 200px;
+}
+
+.members-1998pB {
+    width: 200px;
+}
+
+/* Chat */
+.form-2fGMdU {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: -8px;
+}
+
+.channelTextArea-rNsIhG {
+    margin-bottom: 16px;
+}
+
+/* Sidebar left */
+.sidebar-2K8pFh {
+    width: 210px;
+}
+
+.buttonIcon-Od8mYw {
+    margin-right: 4px;
+}
+
+.lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp {
+    overflow: visible;
+}
