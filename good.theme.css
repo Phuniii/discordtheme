@@ -1,7 +1,11 @@
 //META{"name":"good","description":"Nämen, vette fan asså","author":"Phuni","version":"1"}*//
 
 @import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: 'Roboto', sans-serif;
+}
 :root {
     --server-icon-size: 40px; /* Size of the server icons | DEFAULT: 35px */
     --server-icon-spacing: 4px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
@@ -9,7 +13,7 @@
     
     --background-primary: #282C34;
     --background-secondary: #2E323A;
-    --background-secondary-alt: #2E323A;
+    --background-secondary-alt: #393D44;
     --background-tertiary: #282C34;
     --background-floating: #18191c;
     
