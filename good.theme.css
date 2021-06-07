@@ -1,4 +1,4 @@
-//META{"name":"good","description":"Nämen, vette fan asså","author":"Phuni","version":"1"}*//
+//META{"name":"good","description":"Nämen, vette fan asså","author":"Phuni","version":"1.1"}*//
 
 @import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -37,7 +37,7 @@
 }
 
 .members-1998pB {
-    width: 200px;
+    width: 240px;
 }
 
 /* Chat */
@@ -53,7 +53,7 @@
 
 /* Sidebar left */
 .sidebar-2K8pFh {
-    width: 210px;
+    width: 240px;
 }
 
 .buttonIcon-Od8mYw {
@@ -62,4 +62,8 @@
 
 .lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp {
     overflow: visible;
+}
+
+.typing-2GQL18 {
+    bottom: -4px;
 }
